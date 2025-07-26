@@ -1,4 +1,4 @@
-ComodaDesk - Interior & Exterior Design Landing Page
+ComodaDesk - Interior & Exterior Design Landing Page + Logo
 
 Overview:
 ----------
