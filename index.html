@@ -51,9 +51,11 @@
       <nav class="space-x-6">
         <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
         <a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+        <a href="#faq" class="text-gray-700 hover:text-gray-900">FAQ</a> <!-- Link către FAQ -->
       </nav>
     </div>
   </header>
+
 
   <!-- Adds spacing below navbar -->
   <div class="h-20"></div>
@@ -93,6 +95,140 @@
     </p>
   </section>
 
+  <!-- OUR DESIGN PROCESS SECTION -->
+  <section id="process" class="py-16 px-8 max-w-6xl mx-auto text-center bg-transparent">
+    <h2 class="text-3xl font-bold mb-6 text-gray-900">Our Design Process</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left text-gray-700">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">1. Discovery & Consultation</h3>
+        <p>
+          We begin by understanding your space, needs, lifestyle and preferences through a one-on-one consultation. This
+          step helps us capture your vision and personal style.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">2. Planning & Inspiration</h3>
+        <p>
+          We create layout drafts, mood boards, and initial sketches — helping you visualize the direction of the
+          project. This phase includes early architectural ideas and concepts.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">3. Final Design & Product Selection</h3>
+        <p>
+          We finalize the design, provide a curated selection of products (sofas, lighting, candles and more), and
+          prepare everything for implementation — all aligned with your preferences.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section with accordion functionality -->
+  <section id="faq" class="py-16 px-8 max-w-6xl mx-auto text-center bg-transparent">
+    <h2 class="text-3xl font-bold mb-6 text-gray-900">Frequently Asked Questions</h2>
+
+    <div class="max-w-3xl mx-auto text-left text-gray-700 space-y-4">
+      <!-- FAQ item 1 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button type="button" class="w-full px-4 py-3 text-left flex justify-between items-center focus:outline-none"
+          aria-expanded="false" aria-controls="faq1-content" id="faq1-btn">
+          <span class="text-xl font-semibold">How do I start a design project with you?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor"
+            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div id="faq1-content" class="px-4 py-3 hidden" aria-labelledby="faq1-btn">
+          You can begin by contacting us through the contact form or email. We'll schedule a consultation to understand
+          your space and vision.
+        </div>
+      </div>
+
+      <!-- FAQ item 2 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button type="button" class="w-full px-4 py-3 text-left flex justify-between items-center focus:outline-none"
+          aria-expanded="false" aria-controls="faq2-content" id="faq2-btn">
+          <span class="text-xl font-semibold">Do you offer both interior and exterior design?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor"
+            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div id="faq2-content" class="px-4 py-3 hidden" aria-labelledby="faq2-btn">
+          Yes, we offer complete design services, including both interior and exterior spaces tailored to your lifestyle
+          and preferences.
+        </div>
+      </div>
+
+      <!-- FAQ item 3 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button type="button" class="w-full px-4 py-3 text-left flex justify-between items-center focus:outline-none"
+          aria-expanded="false" aria-controls="faq3-content" id="faq3-btn">
+          <span class="text-xl font-semibold">Can I purchase the products featured in the designs?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor"
+            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div id="faq3-content" class="px-4 py-3 hidden" aria-labelledby="faq3-btn">
+          Absolutely. We provide a curated selection of items like sofas, lighting, and branded candles that match your
+          finalized design.
+        </div>
+      </div>
+
+      <!-- FAQ item 4 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button type="button" class="w-full px-4 py-3 text-left flex justify-between items-center focus:outline-none"
+          aria-expanded="false" aria-controls="faq4-content" id="faq4-btn">
+          <span class="text-xl font-semibold">What is the typical timeline for a project?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor"
+            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div id="faq4-content" class="px-4 py-3 hidden" aria-labelledby="faq4-btn">
+          Timelines vary depending on the project scope, but we always provide clear estimates and regular updates
+          throughout the process.
+        </div>
+      </div>
+
+      <!-- FAQ item 5 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button type="button" class="w-full px-4 py-3 text-left flex justify-between items-center focus:outline-none"
+          aria-expanded="false" aria-controls="faq5-content" id="faq5-btn">
+          <span class="text-xl font-semibold">Will I receive the final files after completion?</span>
+          <svg class="w-5 h-5 transform transition-transform duration-300" fill="none" stroke="currentColor"
+            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div id="faq5-content" class="px-4 py-3 hidden" aria-labelledby="faq5-btn">
+          Yes, you will receive all the finalized files and documentation after project completion and payment
+          confirmation.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // FAQ Accordion JS - toggles answer visibility and icon rotation
+    document.querySelectorAll('#faq button').forEach(button => {
+      button.addEventListener('click', () => {
+        const expanded = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', String(!expanded));
+
+        const content = document.getElementById(button.getAttribute('aria-controls'));
+        if (!expanded) {
+          content.classList.remove('hidden');
+          button.querySelector('svg').classList.add('rotate-180');
+        } else {
+          content.classList.add('hidden');
+          button.querySelector('svg').classList.remove('rotate-180');
+        }
+      });
+    });
+  </script>
+
 
   <!-- ======= Projects Section ======= -->
   <section id="projects" class="py-16 px-8 bg-transparent">
@@ -103,7 +239,7 @@
         <!-- Project 1 -->
         <article class="rounded-lg overflow-hidden shadow-lg bg-white bg-opacity-80">
           <!-- Replace with your project image -->
-          <img src="images/living-room.jpg" alt="Urban Natural Living Room" class="w-full object-cover"
+          <img src="images/watermark/living-room.jpg" alt="Urban Natural Living Room" class="w-full object-cover"
             loading="lazy" />
           <div class="p-4">
             <h3 class="font-semibold text-xl">Urban Natural Living Room</h3>
@@ -113,7 +249,7 @@
 
         <!-- Project 2 -->
         <article class="rounded-lg overflow-hidden shadow-lg bg-white bg-opacity-80">
-          <img src="images/kitchen.jpg" alt="Minimalist Kitchen" class="w-full object-cover" loading="lazy" />
+          <img src="images/watermark/kitchen.jpg" alt="Minimalist Kitchen" class="w-full object-cover" loading="lazy" />
           <div class="p-4">
             <h3 class="font-semibold text-xl">Minimalist Kitchen</h3>
             <p class="text-gray-600 text-sm">Brightness and Functionality</p>
@@ -122,7 +258,7 @@
 
         <!-- Project 3 -->
         <article class="rounded-lg overflow-hidden shadow-lg bg-white bg-opacity-80">
-          <img src="images/exterior.jpg" alt="Natural Chic Exterior" class="w-full object-cover" loading="lazy" />
+          <img src="images/watermark/exterior.jpg" alt="Natural Chic Exterior" class="w-full object-cover" loading="lazy" />
           <div class="p-4">
             <h3 class="font-semibold text-xl">Natural Chic Exterior</h3>
             <p class="text-gray-600 text-sm">Eco Materials and Relaxation</p>
@@ -131,6 +267,7 @@
       </div>
     </div>
   </section>
+
 
 
 
@@ -143,7 +280,7 @@
         <!-- Product 1 -->
         <article class="rounded-lg overflow-hidden shadow-lg bg-white bg-opacity-80">
           <!-- Replace with your own product image -->
-          <img src="images/sofa.jpg" alt="Elegant Sofa" class="w-full object-cover" loading="lazy" />
+          <img src="images/watermark/sofa.jpg" alt="Elegant Sofa" class="w-full object-cover" loading="lazy" />
           <div class="p-4">
             <h3 class="font-semibold text-xl">Elegant Sofa</h3>
             <p class="text-sm text-gray-600 text-sm">Scandinavian Design</p>
@@ -152,7 +289,7 @@
 
         <!-- Product 2 -->
         <article class="rounded-lg overflow-hidden shadow-lg bg-white bg-opacity-80">
-          <img src="images/lamp.jpg" alt="Pendant Lamp" class="w-full object-cover" loading="lazy" />
+          <img src="images/watermark/lamp.jpg" alt="Pendant Lamp" class="w-full object-cover" loading="lazy" />
           <div class="p-4">
             <h3 class="font-semibold text-xl">Pendant Lamp</h3>
             <p class="text-sm text-gray-600 text-sm">Warm Lighting</p>
@@ -161,7 +298,7 @@
 
         <!-- Product 3 -->
         <article class="rounded-lg overflow-hidden shadow-lg bg-white bg-opacity-80">
-          <img src="images/candle.jpg" alt="ComodaDesk Candle" class="w-full object-cover" loading="lazy" />
+          <img src="images/watermark/candle.jpg" alt="ComodaDesk Candle" class="w-full object-cover" loading="lazy" />
           <div class="p-4">
             <h3 class="font-semibold text-xl">ComodaDesk Candle</h3>
             <p class="text-sm text-gray-600 text-sm">Relaxing Aroma</p>
@@ -180,6 +317,32 @@
     <a href="#contact"
       class="inline-block bg-gray-900 text-white font-semibold px-8 py-3 rounded-full hover:bg-gray-700 transition">Contact
       Us</a>
+  </section>
+
+  <!-- ======= Before & After Section ======= -->
+  <section id="before-after" class="py-16 px-8 max-w-6xl mx-auto text-center bg-transparent">
+    <h2 class="text-3xl font-bold mb-8 text-gray-900">Before & After</h2>
+    <p class="text-lg text-gray-700 mb-10">
+      Explore some of our dramatic transformations — from cluttered to curated, dull to delightful.
+    </p>
+
+    <!-- Gallery grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- First Before/After pair -->
+      <div class="space-y-4">
+        <h3 class="text-xl font-semibold text-gray-800">Before</h3>
+        <!-- Replace the src with your own before image -->
+        <img src="images/before.jpg" alt="Before Design" class="w-full rounded-lg shadow-md">
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="text-xl font-semibold text-gray-800">After</h3>
+        <!-- Replace the src with your own after image with logo -->
+        <img src="images/after.jpg" alt="After Design" class="w-full rounded-lg shadow-md">
+      </div>
+    </div>
+
+    <!-- Optional: add more before/after pairs below using the same structure -->
   </section>
 
 
